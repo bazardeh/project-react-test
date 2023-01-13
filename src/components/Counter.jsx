@@ -5,7 +5,6 @@ const Counter = ({ inc, dec, rest, count }) => {
     <div>
       <h1 style={{ color: count === 0 ? "red" : "green" }}>{count}</h1>
       {/*<h1 style={count === 0 ? {color: 'red'} : {color: 'green'}}>{count}</h1>*/}
-
       <button onClick={inc}>+</button>
       <button
         style={{ backgroundColor: count === 0 ? "red" : "teal" }}
